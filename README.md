@@ -4,8 +4,8 @@ This is a Pytorch implementation of the [Online Deep Learning: Learning Deep Neu
 
 ## Conda Setup
 ```bash
-$ conda create -n onn python=3.9 -y
-$ conda activate onn
+$ conda create -n hbp python=3.9 -y
+$ conda activate hbp
 ```
 
 ## Installing
