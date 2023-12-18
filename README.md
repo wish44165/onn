@@ -19,6 +19,7 @@ $ git clone https://github.com/wish44165/onn.git
 $ cd onn/
 $ pip install -r requirements.txt
 $ pip install onn
+$ pip install -U imbalanced-learn
 ```
 
 </details>
