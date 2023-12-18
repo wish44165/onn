@@ -20,6 +20,10 @@ $ cd onn/
 $ pip install -r requirements.txt
 $ pip install onn
 $ pip install -U imbalanced-learn
+
+# https://github.com/szagoruyko/pytorchviz
+$ brew install graphviz
+$ pip install torchviz
 ```
 
 </details>
