@@ -2,6 +2,12 @@
 
 This is a Pytorch implementation of the [Online Deep Learning: Learning Deep Neural Networks on the Fly](https://arxiv.org/abs/1711.03705) paper. This algorithm contains a new backpropagation approach called Hedge Backpropagation and it is useful for online learning. In this algorithm you model a overnetwork architeture and the algorithm will try to turn on or turn off some of the hidden layers automatically. This algorithm uses the first hidden layer to train/predict but if it is going bad it starts to use another layers automatically. For more informations read the paper in the 'References' section.
 
+## Conda Setup
+```bash
+$ conda create -n onn python=3.9 -y
+$ conda activate onn
+```
+
 ## Installing
 ```
 pip install onn
